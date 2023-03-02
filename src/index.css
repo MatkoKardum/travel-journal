@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #e5e5e5;
+  padding-block: 25px;
+}
+
+nav {
+  width: 550px;
+  height: 55px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A;
+}
+
+/* nav > img {
+  width: 25px;
+} */
+
+nav > span {
+  margin-left: 7px;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 14.5px;
+}
+
+.cards {
+  padding: 45px 40px;
+  background-color: #FFFFFF;
+  width: 550px;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #F5F5F5;
+  padding-block: 20px;
+}
+
+.card:last-of-type {
+  border-bottom: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.card--photo {
+  width: 125px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.card--location {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 5px;
+}
+
+.card--location_country {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #2B283A;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.card--location_icon {
+  height: 10px;
+}
+
+.card--location_maps {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918E9B;
+}
+
+.card--destination {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2B283A;
+}
+
+.card--period {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  color: #2B283A;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.card--description {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #2B283A;
+}
